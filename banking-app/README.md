@@ -25,6 +25,7 @@ A RESTful API for banking operations built with Go and PostgreSQL (Supabase).
 │   │   ├── router.go            # Route definitions
 │   │   ├── handlers/            # HTTP handlers
 │   │   │   ├── account_handler.go
+|   |   |   ├── branch_handler.go
 │   │   │   ├── customer_handler.go
 │   │   │   ├── transaction_handler.go
 │   │   │   └── health_handler.go
@@ -34,6 +35,7 @@ A RESTful API for banking operations built with Go and PostgreSQL (Supabase).
 │   │       └── cors.go
 │   ├── core/                    # Business logic
 │   │   ├── account.go
+|   |   ├── branch.go.go
 │   │   ├── customer.go
 │   │   ├── transaction.go
 │   │   └── errors.go
